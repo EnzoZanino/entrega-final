@@ -1,0 +1,85 @@
+.contenedor-general {
+    .contenedor-1 {
+        .barra-menu {
+            .iconos {
+                .seccion-resume-in {
+                    @extend .seccion-in;
+                    .icon-resume-in {
+                        @extend .icon-in;
+                        border: solid 1px white;
+                    }
+                    .name-resume-in {
+                        @extend .name-in;
+                    }
+                }
+            }
+        }
+    }
+    .contenedor-2{
+        .contenedor-divisor-resume {
+            display: flex; justify-content: center; align-items: center;
+            height: 90vh; width: 90%;
+            border-radius: 2vh;
+            border: solid 1px white;
+            background-color: rgba(255, 255, 255, 0.2);
+            -webkit-backdrop-filter: blur(10px);
+            backdrop-filter: blur(10px);
+            .contenido-resume {
+                display: flex; flex-direction: column; align-items: center;
+                height: 100%; width: 100%;
+                font-size: 1.5vh;
+                .edu-exp {
+                    margin-bottom: 3vh;
+                    padding: 2.5vh 1.5vh;
+                    height: 100%; width: 95%;
+                    background-color: rgba(255, 255, 255, 0.3);
+                    border-radius: 2vh;
+                    display: grid; gap: 1.5vh;
+                    grid-template: repeat(1, 1fr)/ repeat(3, 1fr);
+                    grid-template-areas: 
+                        "operador tecnico desarrollador"
+                    ;
+                    text-align: center;
+                    div {
+                        display: flex; flex-direction: column; align-items: center; justify-content: center;
+                        padding: 1vh;
+                        border: solid 1px white; border-radius: 1vh;
+                    }
+                    ul {
+                        list-style: none;
+                    }
+                }
+                .titulo-exp {
+                    margin-bottom: 1vh;
+                    color: rgb(20, 110, 240);
+                    background-color: rgba(255, 255, 255, 0.4);
+                    border-radius: 1vh;
+                }
+                .seccion-exp {
+                    background-color: rgba(255, 255, 255, 0.1);
+                }
+                .descripcion-exp {
+                    margin-left: 1.5vh;
+                }
+                .descripcion {
+                    background-color: white;
+                }
+                .operador {
+                    grid-area: operador;
+                    background-color: rgba(255, 0, 247, 0.2); 
+                }
+                .tecnico-electricista {
+                    grid-area: tecnico;
+                    background-color: rgba(0, 179, 255, 0.2);
+                }
+                .desarrollo-web {
+                    grid-area: desarrollador;
+                    background-color: rgba(0, 179, 255, 0.2); 
+                }
+            }
+        }
+    }
+}
+.resume-bg{
+    background-image: url(../img/cielo2large.jpg);
+}

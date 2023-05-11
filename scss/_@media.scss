@@ -1,0 +1,606 @@
+/* @MEDIA 1300 @MEDIA 1300 @MEDIA 1300 @MEDIA 1300 @MEDIA 1300 @MEDIA 1300 @MEDIA 1300 @MEDIA 1300 @MEDIA 1300 @MEDIA 1300 */
+/* @MEDIA 1300 @MEDIA 1300 @MEDIA 1300 @MEDIA 1300 @MEDIA 1300 @MEDIA 1300 @MEDIA 1300 @MEDIA 1300 @MEDIA 1300 @MEDIA 1300 */
+/* @MEDIA 1300 @MEDIA 1300 @MEDIA 1300 @MEDIA 1300 @MEDIA 1300 @MEDIA 1300 @MEDIA 1300 @MEDIA 1300 @MEDIA 1300 @MEDIA 1300 */
+@media (max-width: 1300px) {
+    .contenedor-general {
+        display: flex;
+        flex-direction: column;
+        height: auto; width: 100%;
+        background-image: url(../img/fondolarge.jpg);
+        .contenedor-1 {
+            height: 12vh; width: 100%;
+            margin-top: 2.5vh;
+            margin-bottom: 4vh;
+            display: flex; 
+            justify-content: center; 
+            align-items: center;
+            .barra-menu {
+                margin-left: 0;
+                height: 2.75vh; width: 50vh;
+                display: flex; flex-direction: row; justify-content: space-around;
+                border-radius: 1vh;
+                border: none;
+                border-top: solid 1px white;
+                border-bottom: solid 1px white;
+                background-image: url(../img/backgroundOPC/white50.png);
+                filter: opacity(80%);
+                transition: 1.5s;
+                &:hover {
+                    width: 52vh;
+                    height: 2.75vh;
+                    filter: opacity(90%);
+                }
+                .iconos {
+                    a { text-decoration: none; }
+        
+                    height: 100%;
+                    width: 95%;
+                    display: flex; flex-direction: row; justify-content: space-around; align-items: center;
+/* <<<SECCION-OUT>>> <<<SECCION-OUT>>> <<<SECCION-OUT>>> <<<SECCION-OUT>>> <<<SECCION-OUT>>> <<<SECCION-OUT>>> <<<SECCION-OUT>>> <<<SECCION-OUT>>> */
+/* <<<SECCION-OUT>>> <<<SECCION-OUT>>> <<<SECCION-OUT>>> <<<SECCION-OUT>>> <<<SECCION-OUT>>> <<<SECCION-OUT>>> <<<SECCION-OUT>>> <<<SECCION-OUT>>> */
+                    .seccion-home{
+                        display: flex; flex-direction: column;
+                        justify-content: center;
+                        height: 12vh; width: 8vh;
+                        margin: 0;
+                        margin-top: 1vh;
+                        transition: 1s;
+                        .icon-home {
+                            background-color: white;
+                            height: 5vh; width: 5vh;
+                            background-image: url(../img/logo-home.png);
+                            background-size: cover;
+                            border-radius: 8px;
+                            transition: 1s;
+                            &:hover {
+                                margin-left: -1.5vh;
+                                background-image: url(../img/logo-home2.png);
+                                background-size: cover;
+                                height: 8vh; width: 8vh;
+                                border-radius: 12px;
+                                filter: opacity(100%);
+                            }
+                        }
+                        .name-home {
+                            display: flex; 
+                            justify-content: center; 
+                            align-items: center;
+                            z-index: -1;
+                            position: relative; right: 1vh; bottom: 2.5vh;
+                            color: black;font-size: 0.75vh; font-family: 'Signika', sans-serif;
+                            border-radius: 1vh;
+                            height: 1.25vh; width: 4vh;
+                            margin-left: 2vh;
+                            background-color: white;
+                            transition: 0.5s;
+                        }
+                        &:hover {
+                            height: 12.5vh;
+                            .name-home {
+                                transform: translateX(0vh);
+                                transform: translateY(4.5vh);
+                                height: 2.5vh; width: 8vh;
+                                font-size: 1.5vh;
+                            }
+                            .icon-home {
+                                margin: 0;
+                                margin-top: 1.2vh;
+                                background-image: url(../img/logo-home2.png);
+                                background-size: cover;
+                                height: 8vh; width: 8vh;
+                                border-radius: 12px;
+                                filter: opacity(100%);
+                            }
+                        }
+                    }
+                    .seccion-about {
+                        display: flex; flex-direction: column;
+                        justify-content: center;
+                        height: 12vh; width: 8vh;
+                        margin: 0;
+                        margin-top: 1vh;
+                        transition: 1s;
+                        .icon-about {
+                            background-color: white;
+                            height: 5vh; width: 5vh;
+                            background-image: url(../img/logo-about.png);
+                            background-size: cover;
+                            border-radius: 8px;
+                            transition: 1s;
+                            &:hover {
+                                margin-left: -1.5vh;
+                                background-image: url(../img/logo-about2.png);
+                                background-size: cover;
+                                height: 8vh; width: 8vh;
+                                border-radius: 12px;
+                                filter: opacity(100%);
+                            }
+                        }
+                        .name-about {
+                            display: flex; 
+                            justify-content: center; 
+                            align-items: center;
+                            z-index: -1;
+                            position: relative; right: 1vh; bottom: 2.5vh;
+                            color: black;font-size: 0.75vh; font-family: 'Signika', sans-serif;
+                            border-radius: 1vh;
+                            height: 1.25vh; width: 4vh;
+                            margin-left: 2vh;
+                            background-color: white;
+                            transition: 0.5s;
+                        }
+                        &:hover {
+                            height: 12.5vh;
+                            .icon-about {
+                                margin: 0;
+                                margin-top: 1.2vh;
+                                background-image: url(../img/logo-about2v2.png);
+                                background-size: cover;
+                                height: 8vh; width: 8vh;
+                                border-radius: 12px;
+                                filter: opacity(100%);
+                            }
+                            .name-about {
+                                transform: translateX(0vh);
+                                transform: translateY(4.5vh);
+                                height: 2.5vh; width: 8vh;
+                                font-size: 1.5vh;
+                            }
+                        }
+                    }
+    
+                    .seccion-resume {
+                        display: flex; flex-direction: column;
+                        justify-content: center;
+                        height: 12vh; width: 8vh;
+                        margin: 0;
+                        margin-top: 1vh;
+                        transition: 1s;
+                        .icon-resume {
+                            background-color: white;
+                            height: 5vh; width: 5vh;
+                            background-image: url(../img/logo-resume.png);
+                            background-size: cover;
+                            border-radius: 8px;
+                            transition: 1s;
+                            &:hover {
+                                margin-left: -1.5vh;
+                                background-image: url(../img/logo-resume2.png);
+                                background-size: cover;
+                                height: 8vh; width: 8vh;
+                                border-radius: 12px;
+                                filter: opacity(100%);
+                            }
+                        }
+                        .name-resume {
+                            display: flex; 
+                            justify-content: center; 
+                            align-items: center;
+                            z-index: -1;
+                            position: relative; right: 1vh; bottom: 2.5vh;
+                            color: black; font-size: 0.75vh; font-family: 'Signika', sans-serif;
+                            border-radius: 1vh;
+                            height: 1.25vh; width: 4vh;
+                            margin-left: 2vh;
+                            background-color: white;
+                            transition: 0.5s;
+                        }
+                        &:hover {
+                            height: 12.5vh;
+                            .name-resume {
+                                transform: translateX(0vh);
+                                transform: translateY(4.5vh);
+                                height: 2.5vh; width: 8vh;
+                                font-size: 1.5vh;
+                            }
+                            .icon-resume {
+                                margin: 0;
+                                margin-top: 1.2vh;
+                                background-image: url(../img/logo-resume2v2.png);
+                                background-size: cover;
+                                height: 8vh; width: 8vh;
+                                border-radius: 12px;
+                                filter: opacity(100%);
+                            }
+                        }
+                    }
+    
+                    .seccion-portfolio {
+                        display: flex; flex-direction: column;
+                        justify-content: center;
+                        height: 12vh; width: 8vh;
+                        margin: 0;
+                        margin-top: 1vh;
+                        transition: 1s;
+                        .icon-portfolio {
+                            background-color: white;
+                            height: 5vh; width: 5vh;
+                            background-image: url(../img/logo-portfolio.png);
+                            background-size: cover;
+                            border-radius: 8px;
+                            transition: 1s;
+                            &:hover {
+                                margin-left: -1.5vh;
+                                background-image: url(../img/logo-portfolio2.png);
+                                background-size: cover;
+                                height: 8vh; width: 8vh;
+                                border-radius: 12px;
+                                filter: opacity(100%);
+                            }
+                        }
+                        .name-portfolio {
+                            display: flex; 
+                            justify-content: center; 
+                            align-items: center;
+                            height: 1.25vh; width: 4vh;
+                            z-index: -1;
+                            position: relative; right: 1vh; bottom: 2.5vh;
+                            color: black; font-size: 0.75vh; font-family: 'Signika', sans-serif;
+                            border-radius: 1vh;
+                            margin-left: 2vh;
+                            background-color: white;
+                            transition: 0.5s;
+                        }
+                        &:hover {
+                            height: 12.5vh;
+                            .name-portfolio {
+                                transform: translateX(0vh);
+                                transform: translateY(4.5vh);
+                                height: 2.5vh; width: 8vh;
+                                font-size: 1.5vh;
+                            }
+                            .icon-portfolio {
+                                margin: 0;
+                                margin-top: 1.2vh;
+                                background-image: url(../img/logo-portfolio2.png);
+                                background-size: cover;
+                                height: 8vh; width: 8vh;
+                                border-radius: 12px;
+                                filter: opacity(100%);
+                            }
+                        }
+                    }
+    
+                    .seccion-contact {
+                        display: flex; flex-direction: column;
+                        justify-content: center;
+                        height: 12vh; width: 8vh;
+                        margin: 0;
+                        margin-top: 1vh;
+                        transition: 1s;
+                        .icon-contact {
+                            background-color: white;
+                            height: 5vh; width: 5vh;
+                            background-image: url(../img/logo-contacto.png);
+                            background-size: cover;
+                            border-radius: 8px;
+                            transition: 1s;
+                            &:hover {
+                                margin-left: -1.5vh;
+                                background-image: url(../img/logo-contacto2.png);
+                                background-size: cover;
+                                height: 8vh; width: 8vh;
+                                border-radius: 12px;
+                                filter: opacity(100%);
+                            }
+                        }
+                        .name-contact {
+                            display: flex; 
+                            justify-content: center; 
+                            align-items: center;
+                            z-index: -1;
+                            position: relative; right: 1vh; bottom: 2.5vh;
+                            color: black; font-size: 0.75vh; font-family: 'Signika', sans-serif;
+                            border-radius: 1vh;
+                            height: 1.25vh; width: 4vh;
+                            margin-left: 2vh;
+                            background-color: white;
+                            transition: 0.5s;
+                        }
+                        &:hover {
+                            height: 12.5vh;
+                            .name-contact {
+                                transform: translateX(0vh);
+                                transform: translateY(4.5vh);
+                                height: 2.5vh; width: 8vh;
+                                font-size: 1.5vh;
+                            }
+                            .icon-contact {
+                                margin: 0;
+                                margin-top: 1.2vh;
+                                background-image: url(../img/logo-contacto2.png);
+                                background-size: cover;
+                                height: 8vh; width: 8vh;
+                                border-radius: 12px;
+                                filter: opacity(100%);
+                            }
+                        }
+                    }
+/* <<<SECCION-OUT>>> <<<SECCION-OUT>>> <<<SECCION-OUT>>> <<<SECCION-OUT>>> <<<SECCION-OUT>>> <<<SECCION-OUT>>> <<<SECCION-OUT>>> <<<SECCION-OUT>>> */
+/* <<<SECCION-OUT>>> <<<SECCION-OUT>>> <<<SECCION-OUT>>> <<<SECCION-OUT>>> <<<SECCION-OUT>>> <<<SECCION-OUT>>> <<<SECCION-OUT>>> <<<SECCION-OUT>>> */
+
+/* <<<SECCION-IN>>> <<<SECCION-IN>>> <<<SECCION-IN>>> <<<SECCION-IN>>> <<<SECCION-IN>>> <<<SECCION-IN>>> <<<SECCION-IN>>> */
+/* <<<SECCION-IN>>> <<<SECCION-IN>>> <<<SECCION-IN>>> <<<SECCION-IN>>> <<<SECCION-IN>>> <<<SECCION-IN>>> <<<SECCION-IN>>> */
+                    .seccion-home-in {
+                        display: flex; flex-direction: column;
+                        justify-content: center;
+                        height: 12.5vh; width: 8vh;
+                        margin-top: 4vh;
+                        margin-left: 0;
+                        .icon-home-in {
+                            background-image: url(../img/logo-home2.png);
+                            background-color: white;
+                            background-size: cover;
+                            height: 8vh; width: 8vh;
+                            border-radius: 1vh;
+                            filter: opacity(100%);
+                        }
+                        .name-home-in {
+                            display: flex; 
+                            justify-content: center; 
+                            align-items: center;
+                            background-color: white; border-radius: 1vh;
+                            height: 2.5vh; width: 8vh; margin-top: 2vh; margin-left: 0;
+                            color: black; font-size: 1.5vh; font-family: 'Signika', sans-serif;
+                            transition: 0.5s;
+                        }
+                    }
+                    .seccion-about-in {
+                        display: flex; flex-direction: column;
+                        justify-content: center;
+                        height: 12.5vh; width: 8vh;
+                        margin-top: 4vh;
+                        margin-left: 0;
+                        .icon-about-in {
+                            background-image: url(../img/logo-about2v2.png);
+                            background-color: white;
+                            background-size: cover;
+                            height: 8vh; width: 8vh;
+                            border-radius: 1vh;
+                            filter: opacity(100%);
+                        }
+                        .name-about-in {
+                            display: flex; 
+                            justify-content: center; 
+                            align-items: center;
+                            background-color: white; border-radius: 1vh;
+                            height: 2.5vh; width: 8vh; margin-top: 2vh; margin-left: 0;
+                            color: black; font-size: 1.5vh; font-family: 'Signika', sans-serif;
+                            transition: 0.5s;
+                        }
+                    }
+                    .seccion-resume-in {
+                        display: flex; flex-direction: column;
+                        justify-content: center;
+                        height: 12.5vh; width: 8vh;
+                        margin-top: 4vh;
+                        margin-left: 0;
+                        .icon-resume-in {
+                            background-image: url(../img/logo-resume2v2.png);
+                            background-color: white;
+                            background-size: cover;
+                            height: 8vh; width: 8vh;
+                            border-radius: 1vh;
+                            filter: opacity(100%);
+                        }
+                        .name-resume-in {
+                            display: flex; 
+                            justify-content: center; 
+                            align-items: center;
+                            background-color: white; border-radius: 1vh;
+                            height: 2.5vh; width: 8vh; margin-top: 2vh; margin-left: 0;
+                            color: black; font-size: 1.5vh; font-family: 'Signika', sans-serif;
+                            transition: 0.5s;
+                        }
+                    }
+                    .seccion-portfolio-in {
+                        display: flex; flex-direction: column; justify-content: center;
+                        height: 12.5vh; width: 8vh;
+                        margin-top: 4vh;
+                        margin-left: 0;
+                        .icon-portfolio-in {
+                            background-image: url(../img/logo-portfolio2.png);
+                            background-color: white;
+                            background-size: cover;
+                            height: 8vh; width: 8vh;
+                            border-radius: 1vh;
+                            filter: opacity(100%);
+                        }
+                        .name-portfolio-in {
+                            display: flex; 
+                            justify-content: center; 
+                            align-items: center;
+                            background-color: white; border-radius: 1vh;
+                            height: 2.5vh; width: 8vh; margin-top: 2vh; margin-left: 0;
+                            color: black; font-size: 1.5vh; font-family: 'Signika', sans-serif;
+                            transition: 0.5s;
+                        }
+                    }
+                    .seccion-contact-in {
+                        display: flex; flex-direction: column;
+                        justify-content: center;
+                        height: 12.5vh; width: 8vh;
+                        margin-top: 4vh;
+                        margin-left: 0;
+                        .icon-contact-in {
+                            background-image: url(../img/logo-contacto2.png);
+                            background-color: white;
+                            background-size: cover;
+                            height: 8vh; width: 8vh;
+                            border-radius: 1vh;
+                            filter: opacity(100%);
+                        }
+                        .name-contact-in {
+                            display: flex; 
+                            justify-content: center; 
+                            align-items: center;
+                            background-color: white; border-radius: 1vh;
+                            height: 2.5vh; width: 8vh; margin-top: 2vh; margin-left: 0;
+                            color: black; font-size: 1.5vh; font-family: 'Signika', sans-serif;
+                            transition: 0.5s;
+                        }
+                    }
+/* <<<SECCION-IN>>> <<<SECCION-IN>>> <<<SECCION-IN>>> <<<SECCION-IN>>> <<<SECCION-IN>>> <<<SECCION-IN>>> <<<SECCION-IN>>> */
+/* <<<SECCION-IN>>> <<<SECCION-IN>>> <<<SECCION-IN>>> <<<SECCION-IN>>> <<<SECCION-IN>>> <<<SECCION-IN>>> <<<SECCION-IN>>> */
+                }
+            }
+        }
+        .linea-intermedia {
+            margin-top: 2.5vh;
+            height: 0.1px; width: 80%;
+            border: none;
+            border-top: solid 1px white;
+        }
+        .contenedor-2 {
+            .contenedor-divisor {
+                height: 95%;
+                width: 100%;
+                .contenedor-texto-about{
+                    width: 95%; height: 95%;
+                    display: flex; flex-direction: column; justify-content: center;
+                    /* background-color: yellow; */
+                    text-align: center;
+                    p {
+                        font-size: 1.8vh;
+                        margin-top: 0.5vh;
+                        padding: 0.5vh 1vh;
+                        mark {
+                            width: 100%;
+                        }
+                    }
+                }
+            }
+            .contenedor-divisor-index {
+                flex-direction: column; align-items: center;
+                height: 95%;
+                width: 100%;
+            }
+            .contenedor-divisor-portfolio {
+                display: flex; justify-content: center;
+                height: 90vh; width: 100%;
+                padding-top: 1vh;
+                border-radius: 2vh;
+                background-color: rgba(255, 255, 255, 0.2);
+                -webkit-backdrop-filter: blur(10px);
+                backdrop-filter: blur(10px);
+                .contenido-portfolio {
+                    height: 95%; width: 90%;
+                    display: flex; flex-direction: column; align-items: center;
+                    border-radius: 2vh;
+                }
+            }
+        }
+        .contenedor2-resume {
+            height: 200vh;
+            .contenedor-divisor-resume {
+                display: flex; 
+                justify-content: center; 
+                align-items: center;
+                height: 95%; width: 95%;
+                margin-bottom: 2vh;
+                border-radius: 2vh;
+                background-color: rgba(255, 255, 255, 0.2);
+                -webkit-backdrop-filter: blur(10px);
+                backdrop-filter: blur(10px);
+                .contenido-resume {
+                    display: flex; flex-direction: column; align-items: center;
+                    height: 100%; width: 100%;
+                    font-size: 1.5vh;
+                    .edu-exp {
+                        display: flex; flex-direction: column; justify-content: space-evenly;
+                        margin-bottom: 3vh;
+                        padding: 2.5vh 1.5vh;
+                        height: 100%; width: 95%;
+                        background-color: rgba(255, 255, 255, 0.3);
+                        border-radius: 2vh;
+                        text-align: center;
+                    }
+                    .titulo-exp {
+                        margin-bottom: 1vh;
+                        color: darkgoldenrod;
+                        background-color: rgba(255, 255, 255, 0.4);
+                    }
+                    .seccion-exp {
+                        background-color: rgba(255, 255, 255, 0.1);
+                    }
+                    .descripcion-exp {
+                        margin-left: 1.5vh;
+                    }
+                    .descripcion {
+                        background-color: white;
+                    }
+                    .tecnico-electricista {
+                        display: flex; flex-direction: column; align-items: center; justify-content: center;
+                        border: none; border-bottom: solid 1px white;
+                        margin: 0;
+                        padding: 0; padding-bottom: 2vh;
+                        grid-area: tecnico;
+                    }
+                    .operador {
+                        display: flex; flex-direction: column; align-items: center; justify-content: center;
+                        border: none; border-bottom: solid 1px white;
+                        grid-area: operador;
+                        margin: 0;
+                        padding: 0; padding-bottom: 2vh;
+                    }
+                    .desarrollo-web {
+                        display: flex; flex-direction: column; align-items: center; justify-content: center;
+                        border: none; border-bottom: solid 1px white;
+                        grid-area: desarrollador;
+                        margin: 0;
+                        padding: 0; padding-bottom: 2vh;
+                    }
+                }
+            }
+        }
+    }
+}
+/* @MEDIA 1300 @MEDIA 1300 @MEDIA 1300 @MEDIA 1300 @MEDIA 1300 @MEDIA 1300 @MEDIA 1300 @MEDIA 1300 @MEDIA 1300 @MEDIA 1300 */
+/* @MEDIA 1300 @MEDIA 1300 @MEDIA 1300 @MEDIA 1300 @MEDIA 1300 @MEDIA 1300 @MEDIA 1300 @MEDIA 1300 @MEDIA 1300 @MEDIA 1300 */
+/* @MEDIA 1300 @MEDIA 1300 @MEDIA 1300 @MEDIA 1300 @MEDIA 1300 @MEDIA 1300 @MEDIA 1300 @MEDIA 1300 @MEDIA 1300 @MEDIA 1300 */
+
+/* @MEDIA 800 @MEDIA 800 @MEDIA 800 @MEDIA 800 @MEDIA 800 @MEDIA 800 @MEDIA 800 @MEDIA 800 @MEDIA 800 @MEDIA 800 @MEDIA 800 @MEDIA 800*/
+/* @MEDIA 800 @MEDIA 800 @MEDIA 800 @MEDIA 800 @MEDIA 800 @MEDIA 800 @MEDIA 800 @MEDIA 800 @MEDIA 800 @MEDIA 800 @MEDIA 800 @MEDIA 800*/
+@media (max-width: 800px) {
+
+    .wdt2 {
+        display: block !important;
+    }
+
+    .wdt1 {
+        display: none ;
+    }
+
+    .contenido-contact {
+        form {
+            textarea {
+                max-width: 40vh !important;
+            }
+        }
+    }
+
+}
+/* @MEDIA 800 @MEDIA 800 @MEDIA 800 @MEDIA 800 @MEDIA 800 @MEDIA 800 @MEDIA 800 @MEDIA 800 @MEDIA 800 @MEDIA 800 @MEDIA 800 @MEDIA 800*/
+/* @MEDIA 800 @MEDIA 800 @MEDIA 800 @MEDIA 800 @MEDIA 800 @MEDIA 800 @MEDIA 800 @MEDIA 800 @MEDIA 800 @MEDIA 800 @MEDIA 800 @MEDIA 800*/
+
+/* @MEDIA 500 @MEDIA 500 @MEDIA 500 @MEDIA 500 @MEDIA 500 @MEDIA 500 @MEDIA 500 @MEDIA 500 @MEDIA 500 @MEDIA 500 @MEDIA 500 @MEDIA 500*/
+@media (max-width: 450px) {
+
+    .wdt2 {
+        display: none !important;
+    }
+
+    .wdt3 {
+        display: block !important;
+    }
+
+    .contenido-contact {
+        form {
+            textarea {
+                max-width: 30vh !important;
+            }
+        }
+    }
+
+}
+/* @MEDIA 500 @MEDIA 500 @MEDIA 500 @MEDIA 500 @MEDIA 500 @MEDIA 500 @MEDIA 500 @MEDIA 500 @MEDIA 500 @MEDIA 500 @MEDIA 500 @MEDIA 500*/

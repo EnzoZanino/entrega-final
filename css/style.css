@@ -1,0 +1,1321 @@
+/* @Extend */
+.seccion-in, .contenedor-general .contenedor-1 .barra-menu .iconos .seccion-contact-in, .contenedor-general .contenedor-1 .barra-menu .iconos .seccion-portfolio-in, .contenedor-general .contenedor-1 .barra-menu .iconos .seccion-resume-in, .contenedor-general .contenedor-1 .barra-menu .iconos .seccion-about-in, .contenedor-general .contenedor-1 .barra-menu .iconos .seccion-home-in {
+  display: flex;
+  align-items: center;
+  height: 8vh;
+  width: 18vh;
+  margin-left: 10vh;
+}
+
+.icon-in, .contenedor-general .contenedor-1 .barra-menu .iconos .seccion-contact-in .icon-contact-in, .contenedor-general .contenedor-1 .barra-menu .iconos .seccion-portfolio-in .icon-portfolio-in, .contenedor-general .contenedor-1 .barra-menu .iconos .seccion-resume-in .icon-resume-in, .contenedor-general .contenedor-1 .barra-menu .iconos .seccion-about-in .icon-about-in, .contenedor-general .contenedor-1 .barra-menu .iconos .seccion-home-in .icon-home-in {
+  background-size: cover;
+  height: 8vh;
+  width: 8vh;
+  border-radius: 1vh;
+  filter: opacity(100%);
+  box-shadow: 0px 0px 23px 5px white;
+}
+
+.name-in, .contenedor-general .contenedor-1 .barra-menu .iconos .seccion-contact-in .name-contact-in, .contenedor-general .contenedor-1 .barra-menu .iconos .seccion-portfolio-in .name-portfolio-in, .contenedor-general .contenedor-1 .barra-menu .iconos .seccion-resume-in .name-resume-in, .contenedor-general .contenedor-1 .barra-menu .iconos .seccion-about-in .name-about-in, .contenedor-general .contenedor-1 .barra-menu .iconos .seccion-home-in .name-home-in {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  box-shadow: 0px 0px 23px 5px white;
+  border-radius: 1vh;
+  height: 2.5vh;
+  width: 8vh;
+  margin-left: 2vh;
+  transition: 0.5s;
+}
+
+.seccion-out, .contenedor-general .contenedor-1 .barra-menu .iconos .seccion-home, .contenedor-general .contenedor-1 .barra-menu .iconos .seccion-contact, .contenedor-general .contenedor-1 .barra-menu .iconos .seccion-portfolio, .contenedor-general .contenedor-1 .barra-menu .iconos .seccion-resume, .contenedor-general .contenedor-1 .barra-menu .iconos .seccion-about {
+  display: flex;
+  align-items: center;
+  height: 5vh;
+  width: 18vh;
+  transition: 1s;
+  margin-left: 13vh;
+}
+
+.icon-out, .contenedor-general .contenedor-1 .barra-menu .iconos .seccion-home .icon-home, .contenedor-general .contenedor-1 .barra-menu .iconos .seccion-contact .icon-contact, .contenedor-general .contenedor-1 .barra-menu .iconos .seccion-portfolio .icon-portfolio, .contenedor-general .contenedor-1 .barra-menu .iconos .seccion-resume .icon-resume, .contenedor-general .contenedor-1 .barra-menu .iconos .seccion-about .icon-about {
+  background-color: white;
+  height: 5vh;
+  width: 5vh;
+  background-size: cover;
+  border-radius: 8px;
+  /* box-shadow: 0px 0px 20px 1px rgb(50, 50, 50); */
+  border: solid 1px white;
+  transition: 1s;
+}
+
+.icon-hover {
+  margin-left: -1.5vh;
+  box-shadow: 0px 0px 23px 5px white;
+  background-size: cover;
+  height: 8vh;
+  width: 8vh;
+  border-radius: 12px;
+  filter: opacity(100%);
+}
+
+.name-out, .contenedor-general .contenedor-1 .barra-menu .iconos .seccion-home .name-home, .contenedor-general .contenedor-1 .barra-menu .iconos .seccion-contact .name-contact, .contenedor-general .contenedor-1 .barra-menu .iconos .seccion-portfolio .name-portfolio, .contenedor-general .contenedor-1 .barra-menu .iconos .seccion-resume .name-resume, .contenedor-general .contenedor-1 .barra-menu .iconos .seccion-about .name-about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: -1;
+  position: relative;
+  right: 6.5vh;
+  border-radius: 1vh;
+  height: 1.25vh;
+  width: 4vh;
+  margin-left: 2vh;
+  background-color: white;
+  transition: 0.5s;
+  font-size: 1vh;
+}
+
+.icon-hover-out, .contenedor-general .contenedor-1 .barra-menu .iconos .seccion-home:hover .icon-home, .contenedor-general .contenedor-1 .barra-menu .iconos .seccion-contact:hover .icon-contact, .contenedor-general .contenedor-1 .barra-menu .iconos .seccion-portfolio:hover .icon-portfolio, .contenedor-general .contenedor-1 .barra-menu .iconos .seccion-resume:hover .icon-resume, .contenedor-general .contenedor-1 .barra-menu .iconos .seccion-about:hover .icon-about {
+  margin-left: -1.5vh;
+  box-shadow: 0px 0px 23px 5px white;
+  background-size: cover;
+  height: 8vh;
+  width: 8vh;
+  border-radius: 12px;
+  filter: opacity(100%);
+}
+
+.name-hover-out, .contenedor-general .contenedor-1 .barra-menu .iconos .seccion-home:hover .name-home, .contenedor-general .contenedor-1 .barra-menu .iconos .seccion-contact:hover .name-contact, .contenedor-general .contenedor-1 .barra-menu .iconos .seccion-portfolio:hover .name-portfolio, .contenedor-general .contenedor-1 .barra-menu .iconos .seccion-resume:hover .name-resume, .contenedor-general .contenedor-1 .barra-menu .iconos .seccion-about:hover .name-about {
+  transform: translateX(6.5vh);
+  height: 2.5vh;
+  width: 8vh;
+  font-size: 1.5vh;
+  box-shadow: 0px 0px 23px 5px white;
+}
+
+.icon-socials, .contenedor-general .contenedor-2 .contenedor-divisor-index .content-left .social-links .icon-linkedin, .contenedor-general .contenedor-2 .contenedor-divisor-index .content-left .social-links .icon-github, .contenedor-general .contenedor-2 .contenedor-divisor-index .content-left .social-links .icon-twitter, .contenedor-general .contenedor-2 .contenedor-divisor-index .content-left .social-links .icon-instagram, .contenedor-general .contenedor-2 .contenedor-divisor-index .content-left .social-links .icon-facebook {
+  height: 3vh;
+  width: 3vh;
+  border-radius: 0.5vh;
+  transition: 0.5s;
+  background-size: cover;
+}
+
+/* @Extend */
+/* @MAP */
+/* @MAP */
+/* ANIMACION @KEYFRAMES ANIMACION @KEYFRAMES ANIMACION @KEYFRAMES ANIMACION @KEYFRAMES */
+/* ANIMACION @KEYFRAMES ANIMACION @KEYFRAMES ANIMACION @KEYFRAMES ANIMACION @KEYFRAMES */
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: "Signika", sans-serif;
+  color: rgb(100, 100, 100);
+}
+
+h1 {
+  font-size: 6.1vh;
+  /* text-shadow: 0px 0px 5px white; */
+}
+
+h2 {
+  padding-left: 6.5vh;
+  padding-top: 0.2vh;
+  font-size: 2vh;
+}
+
+.contenedor-general {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../img/fondobroad2.jpg);
+  background-size: cover;
+}
+.contenedor-general .contenedor-1 {
+  height: 100vh;
+  width: 18%;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  color: black;
+  font-size: 1.5vh;
+  font-family: "Signika", sans-serif;
+}
+.contenedor-general .contenedor-1 .barra-menu {
+  margin-left: 30%;
+  height: 50vh;
+  width: 2.75vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 1vh;
+  background-color: rgba(255, 255, 255, 0.5);
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  filter: opacity(80%);
+  transition: 1.5s;
+  border-left: solid 1px white;
+  border-right: solid 1px white;
+}
+.contenedor-general .contenedor-1 .barra-menu:hover {
+  height: 52vh;
+  filter: opacity(90%);
+}
+.contenedor-general .contenedor-1 .barra-menu .iconos {
+  height: 95%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.contenedor-general .contenedor-1 .barra-menu .iconos a {
+  text-decoration: none;
+}
+.contenedor-general .contenedor-1 .barra-menu .iconos .seccion-home-in .icon-home-in {
+  border: solid 1px white;
+}
+.contenedor-general .contenedor-1 .barra-menu .iconos .seccion-about .icon-about {
+  filter: saturate(0%);
+}
+.contenedor-general .contenedor-1 .barra-menu .iconos .seccion-about .icon-about:hover {
+  filter: saturate(100%);
+}
+.contenedor-general .contenedor-1 .barra-menu .iconos .seccion-about:hover {
+  transition: 1s;
+  height: 8vh;
+}
+.contenedor-general .contenedor-1 .barra-menu .iconos .seccion-about:hover .icon-about {
+  filter: saturate(100%);
+}
+.contenedor-general .contenedor-1 .barra-menu .iconos .seccion-resume .icon-resume {
+  filter: saturate(0%);
+}
+.contenedor-general .contenedor-1 .barra-menu .iconos .seccion-resume .icon-resume:hover {
+  filter: saturate(100%);
+}
+.contenedor-general .contenedor-1 .barra-menu .iconos .seccion-resume:hover {
+  transition: 1s;
+  height: 8vh;
+}
+.contenedor-general .contenedor-1 .barra-menu .iconos .seccion-resume:hover .icon-resume {
+  filter: saturate(100%);
+}
+.contenedor-general .contenedor-1 .barra-menu .iconos .seccion-portfolio .icon-portfolio {
+  filter: saturate(0%);
+}
+.contenedor-general .contenedor-1 .barra-menu .iconos .seccion-portfolio .icon-portfolio:hover {
+  filter: saturate(100%);
+}
+.contenedor-general .contenedor-1 .barra-menu .iconos .seccion-portfolio:hover {
+  transition: 1s;
+  height: 8vh;
+}
+.contenedor-general .contenedor-1 .barra-menu .iconos .seccion-portfolio:hover .icon-portfolio {
+  filter: saturate(100%);
+}
+.contenedor-general .contenedor-1 .barra-menu .iconos .seccion-contact .icon-contact {
+  filter: saturate(0%);
+}
+.contenedor-general .contenedor-1 .barra-menu .iconos .seccion-contact .icon-contact:hover {
+  filter: saturate(100%);
+}
+.contenedor-general .contenedor-1 .barra-menu .iconos .seccion-contact:hover {
+  transition: 1s;
+  height: 8vh;
+}
+.contenedor-general .contenedor-1 .barra-menu .iconos .seccion-contact:hover .icon-contact {
+  filter: saturate(100%);
+}
+.contenedor-general .linea-intermedia {
+  height: 80vh;
+  width: 0.1px;
+  border-left: solid 1.5px white;
+}
+.contenedor-general .contenedor-2 {
+  height: 100vh;
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contenedor-general .contenedor-2 .contenedor-divisor-index {
+  display: flex;
+  justify-content: space-evenly;
+  height: 60vh;
+  width: 80%;
+  border-radius: 2vh;
+  background-color: rgba(255, 255, 255, 0.2);
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  border: solid 1px white;
+}
+.contenedor-general .contenedor-2 .contenedor-divisor-index .content-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: "Signika", sans-serif;
+  border-radius: 2vh;
+}
+.contenedor-general .contenedor-2 .contenedor-divisor-index .content-left .social-links {
+  display: flex;
+  justify-content: space-around;
+  height: 3vh;
+  width: 32.5vh;
+  margin-top: 2vh;
+  filter: opacity(52%);
+}
+.contenedor-general .contenedor-2 .contenedor-divisor-index .content-right {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  filter: opacity(80%);
+}
+.contenedor-general .contenedor-2 .contenedor-divisor-index .content-right .circle-perfil-e {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 35vh;
+  width: 35vh;
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 30vh;
+  border: solid white 1px;
+}
+.contenedor-general .contenedor-2 .contenedor-divisor-index .content-right .circle-perfil-e .circle-perfil-i {
+  height: 33vh;
+  width: 33vh;
+  background-color: lightslategray;
+  border-radius: 40vh;
+}
+.contenedor-general footer {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+.contenedor-general footer .ribbon {
+  position: fixed;
+  left: -6.5vh;
+  bottom: 2vh;
+  cursor: pointer;
+  width: 19vh;
+  height: 5vh;
+  z-index: 4;
+  display: flex;
+  justify-content: end;
+  transition: 2.5s;
+  background-image: url(../img/ribbon-left.png);
+  background-size: cover;
+  transition: 1s;
+}
+.contenedor-general footer .ribbon:hover {
+  transform: translateX(3.25vh);
+}
+.contenedor-general footer .ribbon .txt-footer {
+  position: relative;
+  right: 3vh;
+  display: flex;
+  align-items: center;
+  font-size: 2vh;
+  height: 5vh;
+  width: 7vh;
+  text-align: center;
+}
+.contenedor-general footer .ribbon .footer-active {
+  display: none;
+}
+.contenedor-general footer input {
+  display: none;
+}
+.contenedor-general footer input:checked + .ribbon {
+  left: 0vh;
+  bottom: 0;
+  background-image: url(../img/barra-h.jpg);
+  height: 10vh;
+  width: 100%;
+  transition: 0.5s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contenedor-general footer input:checked + .ribbon:hover {
+  transform: translateX(0vh);
+}
+.contenedor-general footer input:checked + .ribbon .txt-footer {
+  display: none;
+}
+.contenedor-general footer input:checked + .ribbon .footer-active {
+  display: block;
+}
+
+.contenedor-general .contenedor-1 .barra-menu .iconos .seccion-home .icon-home {
+  filter: saturate(0%);
+}
+.contenedor-general .contenedor-1 .barra-menu .iconos .seccion-home .icon-home:hover {
+  filter: saturate(100%);
+}
+.contenedor-general .contenedor-1 .barra-menu .iconos .seccion-home:hover {
+  transition: 1s;
+  height: 8vh;
+}
+.contenedor-general .contenedor-1 .barra-menu .iconos .seccion-home:hover .icon-home {
+  filter: saturate(100%);
+}
+.contenedor-general .contenedor-1 .barra-menu .iconos .seccion-about-in .icon-about-in {
+  border: solid 1px white;
+}
+.contenedor-general .contenedor-2 .contenedor-divisor {
+  border: solid 1px white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60vh;
+  width: 80%;
+  border-radius: 2vh;
+  background-color: rgba(255, 255, 255, 0.2);
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+}
+.contenedor-general .contenedor-2 .contenedor-divisor .contenedor-texto-about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 90%;
+  height: 100%;
+}
+.contenedor-general .contenedor-2 .contenedor-divisor .contenedor-texto-about p {
+  text-align: center;
+  font-size: 2vh;
+  padding: 4vh 8vh;
+  border-radius: 2vh;
+  background-color: rgba(255, 255, 255, 0.4);
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+}
+
+.contenedor-general .contenedor-1 .barra-menu .iconos .seccion-resume-in .icon-resume-in {
+  border: solid 1px white;
+}
+.contenedor-general .contenedor-2 .contenedor-divisor-resume {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+  width: 90%;
+  border-radius: 2vh;
+  border: solid 1px white;
+  background-color: rgba(255, 255, 255, 0.2);
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+}
+.contenedor-general .contenedor-2 .contenedor-divisor-resume .contenido-resume {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  font-size: 1.5vh;
+}
+.contenedor-general .contenedor-2 .contenedor-divisor-resume .contenido-resume .edu-exp {
+  margin-bottom: 3vh;
+  padding: 2.5vh 1.5vh;
+  height: 100%;
+  width: 95%;
+  background-color: rgba(255, 255, 255, 0.3);
+  border-radius: 2vh;
+  display: grid;
+  gap: 1.5vh;
+  grid-template: repeat(1, 1fr)/repeat(3, 1fr);
+  grid-template-areas: "operador tecnico desarrollador";
+  text-align: center;
+}
+.contenedor-general .contenedor-2 .contenedor-divisor-resume .contenido-resume .edu-exp div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1vh;
+  border: solid 1px white;
+  border-radius: 1vh;
+}
+.contenedor-general .contenedor-2 .contenedor-divisor-resume .contenido-resume .edu-exp ul {
+  list-style: none;
+}
+.contenedor-general .contenedor-2 .contenedor-divisor-resume .contenido-resume .titulo-exp {
+  margin-bottom: 1vh;
+  color: rgb(20, 110, 240);
+  background-color: rgba(255, 255, 255, 0.4);
+  border-radius: 1vh;
+}
+.contenedor-general .contenedor-2 .contenedor-divisor-resume .contenido-resume .seccion-exp {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+.contenedor-general .contenedor-2 .contenedor-divisor-resume .contenido-resume .descripcion-exp {
+  margin-left: 1.5vh;
+}
+.contenedor-general .contenedor-2 .contenedor-divisor-resume .contenido-resume .descripcion {
+  background-color: white;
+}
+.contenedor-general .contenedor-2 .contenedor-divisor-resume .contenido-resume .operador {
+  grid-area: operador;
+  background-color: rgba(255, 0, 247, 0.2);
+}
+.contenedor-general .contenedor-2 .contenedor-divisor-resume .contenido-resume .tecnico-electricista {
+  grid-area: tecnico;
+  background-color: rgba(0, 179, 255, 0.2);
+}
+.contenedor-general .contenedor-2 .contenedor-divisor-resume .contenido-resume .desarrollo-web {
+  grid-area: desarrollador;
+  background-color: rgba(0, 179, 255, 0.2);
+}
+
+.resume-bg {
+  background-image: url(../img/cielo2large.jpg);
+}
+
+.contenedor-general p {
+  margin: 0;
+}
+.contenedor-general h1 {
+  font-weight: 600;
+}
+.contenedor-general .contenedor-1 .barra-menu .iconos .seccion-portfolio-in .icon-portfolio-in {
+  border: solid 1px white;
+}
+.contenedor-general .contenedor-2 .contenedor-divisor-portfolio {
+  display: flex;
+  justify-content: center;
+  height: 70vh;
+  width: 80%;
+  padding-top: 1vh;
+  border: solid 1px white;
+  border-radius: 2vh;
+  background-color: rgba(255, 255, 255, 0.2);
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+}
+.contenedor-general .contenedor-2 .contenedor-divisor-portfolio .contenido-portfolio {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  border-radius: 2vh;
+}
+.contenedor-general .contenedor-2 .contenedor-divisor-portfolio .contenido-portfolio .carousel-inner {
+  border: solid 1px white;
+  box-shadow: 0px 0px 23px 5px white;
+  border-radius: 2vh;
+}
+.contenedor-general .contenedor-2 .contenedor-divisor-portfolio .contenido-portfolio .carousel-inner .carousel-item {
+  transition: 0.5s;
+}
+.contenedor-general .contenedor-2 .contenedor-divisor-portfolio .contenido-portfolio .carousel-inner .carousel-item a .wdt2 {
+  display: none;
+}
+.contenedor-general .contenedor-2 .contenedor-divisor-portfolio .contenido-portfolio .carousel-inner .carousel-item a .wdt3 {
+  display: none;
+}
+.contenedor-general .contenedor-2 .contenedor-divisor-portfolio .contenido-portfolio .carousel-inner .carousel-item a img {
+  height: 50vh;
+}
+
+.contenedor-general .contenedor-1 .barra-menu .iconos .seccion-contact-in .icon-contact-in {
+  border: solid 1px white;
+}
+.contenedor-general .contenedor-2 .contenedor-divisor .contenido-contact {
+  flex-direction: column;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  height: 90%;
+  text-align: center;
+  font-family: "Signika", sans-serif;
+  color: rgb(92, 82, 86);
+}
+.contenedor-general .contenedor-2 .contenedor-divisor .contenido-contact form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.contenedor-general .contenedor-2 .contenedor-divisor .contenido-contact form label {
+  font-size: 2.5vh;
+  display: block;
+}
+.contenedor-general .contenedor-2 .contenedor-divisor .contenido-contact form input {
+  margin: 1.5vh 0;
+  display: block;
+  background-color: rgba(255, 255, 255, 0.8);
+  border: none;
+  border-radius: 1vh;
+  text-align: center;
+  height: 2.5vh;
+  width: 30vh;
+}
+.contenedor-general .contenedor-2 .contenedor-divisor .contenido-contact form textarea {
+  margin: 1.5vh 0;
+  background-color: rgba(255, 255, 255, 0.8);
+  border: none;
+  border-radius: 1vh;
+  padding: 0.7vh 1vh;
+  width: 30vh;
+  height: 12vh;
+  min-width: 30vh;
+  min-height: 8vh;
+  max-width: 50vh;
+  max-height: 20vh;
+}
+.contenedor-general .contenedor-2 .contenedor-divisor .contenido-contact form .button-submit {
+  cursor: pointer;
+  font-family: "Signika", sans-serif;
+  font-size: 1.5vh;
+  color: rgb(92, 82, 86);
+  box-shadow: 0px 0px 5px 1px rgb(22, 175, 230);
+  border: solid 1px white;
+  background-color: rgb(67, 188, 231);
+  height: 3vh;
+  width: 12vh;
+}
+.contenedor-general .contenedor-2 .contenedor-divisor .contenido-contact form .button-submit:active {
+  font-size: 1.5vh;
+  background-color: rgb(7, 40, 52);
+  box-shadow: 0px 0px 5px 1px rgb(255, 255, 255);
+  border: solid 1px black;
+  color: white;
+}
+
+/* @Media (max-width ...px) {           */
+/* @MEDIA 1300 @MEDIA 1300 @MEDIA 1300 @MEDIA 1300 @MEDIA 1300 @MEDIA 1300 @MEDIA 1300 @MEDIA 1300 @MEDIA 1300 @MEDIA 1300 */
+/* @MEDIA 1300 @MEDIA 1300 @MEDIA 1300 @MEDIA 1300 @MEDIA 1300 @MEDIA 1300 @MEDIA 1300 @MEDIA 1300 @MEDIA 1300 @MEDIA 1300 */
+/* @MEDIA 1300 @MEDIA 1300 @MEDIA 1300 @MEDIA 1300 @MEDIA 1300 @MEDIA 1300 @MEDIA 1300 @MEDIA 1300 @MEDIA 1300 @MEDIA 1300 */
+@media (max-width: 1300px) {
+  .contenedor-general {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: 100%;
+    background-image: url(../img/fondolarge.jpg);
+  }
+  .contenedor-general .contenedor-1 {
+    height: 12vh;
+    width: 100%;
+    margin-top: 2.5vh;
+    margin-bottom: 4vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .contenedor-general .contenedor-1 .barra-menu {
+    margin-left: 0;
+    height: 2.75vh;
+    width: 50vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border-radius: 1vh;
+    border: none;
+    border-top: solid 1px white;
+    border-bottom: solid 1px white;
+    background-image: url(../img/backgroundOPC/white50.png);
+    filter: opacity(80%);
+    transition: 1.5s;
+  }
+  .contenedor-general .contenedor-1 .barra-menu:hover {
+    width: 52vh;
+    height: 2.75vh;
+    filter: opacity(90%);
+  }
+  .contenedor-general .contenedor-1 .barra-menu .iconos {
+    height: 100%;
+    width: 95%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    /* <<<SECCION-OUT>>> <<<SECCION-OUT>>> <<<SECCION-OUT>>> <<<SECCION-OUT>>> <<<SECCION-OUT>>> <<<SECCION-OUT>>> <<<SECCION-OUT>>> <<<SECCION-OUT>>> */
+    /* <<<SECCION-OUT>>> <<<SECCION-OUT>>> <<<SECCION-OUT>>> <<<SECCION-OUT>>> <<<SECCION-OUT>>> <<<SECCION-OUT>>> <<<SECCION-OUT>>> <<<SECCION-OUT>>> */
+    /* <<<SECCION-OUT>>> <<<SECCION-OUT>>> <<<SECCION-OUT>>> <<<SECCION-OUT>>> <<<SECCION-OUT>>> <<<SECCION-OUT>>> <<<SECCION-OUT>>> <<<SECCION-OUT>>> */
+    /* <<<SECCION-OUT>>> <<<SECCION-OUT>>> <<<SECCION-OUT>>> <<<SECCION-OUT>>> <<<SECCION-OUT>>> <<<SECCION-OUT>>> <<<SECCION-OUT>>> <<<SECCION-OUT>>> */
+    /* <<<SECCION-IN>>> <<<SECCION-IN>>> <<<SECCION-IN>>> <<<SECCION-IN>>> <<<SECCION-IN>>> <<<SECCION-IN>>> <<<SECCION-IN>>> */
+    /* <<<SECCION-IN>>> <<<SECCION-IN>>> <<<SECCION-IN>>> <<<SECCION-IN>>> <<<SECCION-IN>>> <<<SECCION-IN>>> <<<SECCION-IN>>> */
+    /* <<<SECCION-IN>>> <<<SECCION-IN>>> <<<SECCION-IN>>> <<<SECCION-IN>>> <<<SECCION-IN>>> <<<SECCION-IN>>> <<<SECCION-IN>>> */
+    /* <<<SECCION-IN>>> <<<SECCION-IN>>> <<<SECCION-IN>>> <<<SECCION-IN>>> <<<SECCION-IN>>> <<<SECCION-IN>>> <<<SECCION-IN>>> */
+  }
+  .contenedor-general .contenedor-1 .barra-menu .iconos a {
+    text-decoration: none;
+  }
+  .contenedor-general .contenedor-1 .barra-menu .iconos .seccion-home {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 12vh;
+    width: 8vh;
+    margin: 0;
+    margin-top: 1vh;
+    transition: 1s;
+  }
+  .contenedor-general .contenedor-1 .barra-menu .iconos .seccion-home .icon-home {
+    background-color: white;
+    height: 5vh;
+    width: 5vh;
+    background-image: url(../img/logo-home.png);
+    background-size: cover;
+    border-radius: 8px;
+    transition: 1s;
+  }
+  .contenedor-general .contenedor-1 .barra-menu .iconos .seccion-home .icon-home:hover {
+    margin-left: -1.5vh;
+    background-image: url(../img/logo-home2.png);
+    background-size: cover;
+    height: 8vh;
+    width: 8vh;
+    border-radius: 12px;
+    filter: opacity(100%);
+  }
+  .contenedor-general .contenedor-1 .barra-menu .iconos .seccion-home .name-home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: -1;
+    position: relative;
+    right: 1vh;
+    bottom: 2.5vh;
+    color: black;
+    font-size: 0.75vh;
+    font-family: "Signika", sans-serif;
+    border-radius: 1vh;
+    height: 1.25vh;
+    width: 4vh;
+    margin-left: 2vh;
+    background-color: white;
+    transition: 0.5s;
+  }
+  .contenedor-general .contenedor-1 .barra-menu .iconos .seccion-home:hover {
+    height: 12.5vh;
+  }
+  .contenedor-general .contenedor-1 .barra-menu .iconos .seccion-home:hover .name-home {
+    transform: translateX(0vh);
+    transform: translateY(4.5vh);
+    height: 2.5vh;
+    width: 8vh;
+    font-size: 1.5vh;
+  }
+  .contenedor-general .contenedor-1 .barra-menu .iconos .seccion-home:hover .icon-home {
+    margin: 0;
+    margin-top: 1.2vh;
+    background-image: url(../img/logo-home2.png);
+    background-size: cover;
+    height: 8vh;
+    width: 8vh;
+    border-radius: 12px;
+    filter: opacity(100%);
+  }
+  .contenedor-general .contenedor-1 .barra-menu .iconos .seccion-about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 12vh;
+    width: 8vh;
+    margin: 0;
+    margin-top: 1vh;
+    transition: 1s;
+  }
+  .contenedor-general .contenedor-1 .barra-menu .iconos .seccion-about .icon-about {
+    background-color: white;
+    height: 5vh;
+    width: 5vh;
+    background-image: url(../img/logo-about.png);
+    background-size: cover;
+    border-radius: 8px;
+    transition: 1s;
+  }
+  .contenedor-general .contenedor-1 .barra-menu .iconos .seccion-about .icon-about:hover {
+    margin-left: -1.5vh;
+    background-image: url(../img/logo-about2.png);
+    background-size: cover;
+    height: 8vh;
+    width: 8vh;
+    border-radius: 12px;
+    filter: opacity(100%);
+  }
+  .contenedor-general .contenedor-1 .barra-menu .iconos .seccion-about .name-about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: -1;
+    position: relative;
+    right: 1vh;
+    bottom: 2.5vh;
+    color: black;
+    font-size: 0.75vh;
+    font-family: "Signika", sans-serif;
+    border-radius: 1vh;
+    height: 1.25vh;
+    width: 4vh;
+    margin-left: 2vh;
+    background-color: white;
+    transition: 0.5s;
+  }
+  .contenedor-general .contenedor-1 .barra-menu .iconos .seccion-about:hover {
+    height: 12.5vh;
+  }
+  .contenedor-general .contenedor-1 .barra-menu .iconos .seccion-about:hover .icon-about {
+    margin: 0;
+    margin-top: 1.2vh;
+    background-image: url(../img/logo-about2v2.png);
+    background-size: cover;
+    height: 8vh;
+    width: 8vh;
+    border-radius: 12px;
+    filter: opacity(100%);
+  }
+  .contenedor-general .contenedor-1 .barra-menu .iconos .seccion-about:hover .name-about {
+    transform: translateX(0vh);
+    transform: translateY(4.5vh);
+    height: 2.5vh;
+    width: 8vh;
+    font-size: 1.5vh;
+  }
+  .contenedor-general .contenedor-1 .barra-menu .iconos .seccion-resume {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 12vh;
+    width: 8vh;
+    margin: 0;
+    margin-top: 1vh;
+    transition: 1s;
+  }
+  .contenedor-general .contenedor-1 .barra-menu .iconos .seccion-resume .icon-resume {
+    background-color: white;
+    height: 5vh;
+    width: 5vh;
+    background-image: url(../img/logo-resume.png);
+    background-size: cover;
+    border-radius: 8px;
+    transition: 1s;
+  }
+  .contenedor-general .contenedor-1 .barra-menu .iconos .seccion-resume .icon-resume:hover {
+    margin-left: -1.5vh;
+    background-image: url(../img/logo-resume2.png);
+    background-size: cover;
+    height: 8vh;
+    width: 8vh;
+    border-radius: 12px;
+    filter: opacity(100%);
+  }
+  .contenedor-general .contenedor-1 .barra-menu .iconos .seccion-resume .name-resume {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: -1;
+    position: relative;
+    right: 1vh;
+    bottom: 2.5vh;
+    color: black;
+    font-size: 0.75vh;
+    font-family: "Signika", sans-serif;
+    border-radius: 1vh;
+    height: 1.25vh;
+    width: 4vh;
+    margin-left: 2vh;
+    background-color: white;
+    transition: 0.5s;
+  }
+  .contenedor-general .contenedor-1 .barra-menu .iconos .seccion-resume:hover {
+    height: 12.5vh;
+  }
+  .contenedor-general .contenedor-1 .barra-menu .iconos .seccion-resume:hover .name-resume {
+    transform: translateX(0vh);
+    transform: translateY(4.5vh);
+    height: 2.5vh;
+    width: 8vh;
+    font-size: 1.5vh;
+  }
+  .contenedor-general .contenedor-1 .barra-menu .iconos .seccion-resume:hover .icon-resume {
+    margin: 0;
+    margin-top: 1.2vh;
+    background-image: url(../img/logo-resume2v2.png);
+    background-size: cover;
+    height: 8vh;
+    width: 8vh;
+    border-radius: 12px;
+    filter: opacity(100%);
+  }
+  .contenedor-general .contenedor-1 .barra-menu .iconos .seccion-portfolio {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 12vh;
+    width: 8vh;
+    margin: 0;
+    margin-top: 1vh;
+    transition: 1s;
+  }
+  .contenedor-general .contenedor-1 .barra-menu .iconos .seccion-portfolio .icon-portfolio {
+    background-color: white;
+    height: 5vh;
+    width: 5vh;
+    background-image: url(../img/logo-portfolio.png);
+    background-size: cover;
+    border-radius: 8px;
+    transition: 1s;
+  }
+  .contenedor-general .contenedor-1 .barra-menu .iconos .seccion-portfolio .icon-portfolio:hover {
+    margin-left: -1.5vh;
+    background-image: url(../img/logo-portfolio2.png);
+    background-size: cover;
+    height: 8vh;
+    width: 8vh;
+    border-radius: 12px;
+    filter: opacity(100%);
+  }
+  .contenedor-general .contenedor-1 .barra-menu .iconos .seccion-portfolio .name-portfolio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 1.25vh;
+    width: 4vh;
+    z-index: -1;
+    position: relative;
+    right: 1vh;
+    bottom: 2.5vh;
+    color: black;
+    font-size: 0.75vh;
+    font-family: "Signika", sans-serif;
+    border-radius: 1vh;
+    margin-left: 2vh;
+    background-color: white;
+    transition: 0.5s;
+  }
+  .contenedor-general .contenedor-1 .barra-menu .iconos .seccion-portfolio:hover {
+    height: 12.5vh;
+  }
+  .contenedor-general .contenedor-1 .barra-menu .iconos .seccion-portfolio:hover .name-portfolio {
+    transform: translateX(0vh);
+    transform: translateY(4.5vh);
+    height: 2.5vh;
+    width: 8vh;
+    font-size: 1.5vh;
+  }
+  .contenedor-general .contenedor-1 .barra-menu .iconos .seccion-portfolio:hover .icon-portfolio {
+    margin: 0;
+    margin-top: 1.2vh;
+    background-image: url(../img/logo-portfolio2.png);
+    background-size: cover;
+    height: 8vh;
+    width: 8vh;
+    border-radius: 12px;
+    filter: opacity(100%);
+  }
+  .contenedor-general .contenedor-1 .barra-menu .iconos .seccion-contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 12vh;
+    width: 8vh;
+    margin: 0;
+    margin-top: 1vh;
+    transition: 1s;
+  }
+  .contenedor-general .contenedor-1 .barra-menu .iconos .seccion-contact .icon-contact {
+    background-color: white;
+    height: 5vh;
+    width: 5vh;
+    background-image: url(../img/logo-contacto.png);
+    background-size: cover;
+    border-radius: 8px;
+    transition: 1s;
+  }
+  .contenedor-general .contenedor-1 .barra-menu .iconos .seccion-contact .icon-contact:hover {
+    margin-left: -1.5vh;
+    background-image: url(../img/logo-contacto2.png);
+    background-size: cover;
+    height: 8vh;
+    width: 8vh;
+    border-radius: 12px;
+    filter: opacity(100%);
+  }
+  .contenedor-general .contenedor-1 .barra-menu .iconos .seccion-contact .name-contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: -1;
+    position: relative;
+    right: 1vh;
+    bottom: 2.5vh;
+    color: black;
+    font-size: 0.75vh;
+    font-family: "Signika", sans-serif;
+    border-radius: 1vh;
+    height: 1.25vh;
+    width: 4vh;
+    margin-left: 2vh;
+    background-color: white;
+    transition: 0.5s;
+  }
+  .contenedor-general .contenedor-1 .barra-menu .iconos .seccion-contact:hover {
+    height: 12.5vh;
+  }
+  .contenedor-general .contenedor-1 .barra-menu .iconos .seccion-contact:hover .name-contact {
+    transform: translateX(0vh);
+    transform: translateY(4.5vh);
+    height: 2.5vh;
+    width: 8vh;
+    font-size: 1.5vh;
+  }
+  .contenedor-general .contenedor-1 .barra-menu .iconos .seccion-contact:hover .icon-contact {
+    margin: 0;
+    margin-top: 1.2vh;
+    background-image: url(../img/logo-contacto2.png);
+    background-size: cover;
+    height: 8vh;
+    width: 8vh;
+    border-radius: 12px;
+    filter: opacity(100%);
+  }
+  .contenedor-general .contenedor-1 .barra-menu .iconos .seccion-home-in {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 12.5vh;
+    width: 8vh;
+    margin-top: 4vh;
+    margin-left: 0;
+  }
+  .contenedor-general .contenedor-1 .barra-menu .iconos .seccion-home-in .icon-home-in {
+    background-image: url(../img/logo-home2.png);
+    background-color: white;
+    background-size: cover;
+    height: 8vh;
+    width: 8vh;
+    border-radius: 1vh;
+    filter: opacity(100%);
+  }
+  .contenedor-general .contenedor-1 .barra-menu .iconos .seccion-home-in .name-home-in {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 1vh;
+    height: 2.5vh;
+    width: 8vh;
+    margin-top: 2vh;
+    margin-left: 0;
+    color: black;
+    font-size: 1.5vh;
+    font-family: "Signika", sans-serif;
+    transition: 0.5s;
+  }
+  .contenedor-general .contenedor-1 .barra-menu .iconos .seccion-about-in {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 12.5vh;
+    width: 8vh;
+    margin-top: 4vh;
+    margin-left: 0;
+  }
+  .contenedor-general .contenedor-1 .barra-menu .iconos .seccion-about-in .icon-about-in {
+    background-image: url(../img/logo-about2v2.png);
+    background-color: white;
+    background-size: cover;
+    height: 8vh;
+    width: 8vh;
+    border-radius: 1vh;
+    filter: opacity(100%);
+  }
+  .contenedor-general .contenedor-1 .barra-menu .iconos .seccion-about-in .name-about-in {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 1vh;
+    height: 2.5vh;
+    width: 8vh;
+    margin-top: 2vh;
+    margin-left: 0;
+    color: black;
+    font-size: 1.5vh;
+    font-family: "Signika", sans-serif;
+    transition: 0.5s;
+  }
+  .contenedor-general .contenedor-1 .barra-menu .iconos .seccion-resume-in {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 12.5vh;
+    width: 8vh;
+    margin-top: 4vh;
+    margin-left: 0;
+  }
+  .contenedor-general .contenedor-1 .barra-menu .iconos .seccion-resume-in .icon-resume-in {
+    background-image: url(../img/logo-resume2v2.png);
+    background-color: white;
+    background-size: cover;
+    height: 8vh;
+    width: 8vh;
+    border-radius: 1vh;
+    filter: opacity(100%);
+  }
+  .contenedor-general .contenedor-1 .barra-menu .iconos .seccion-resume-in .name-resume-in {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 1vh;
+    height: 2.5vh;
+    width: 8vh;
+    margin-top: 2vh;
+    margin-left: 0;
+    color: black;
+    font-size: 1.5vh;
+    font-family: "Signika", sans-serif;
+    transition: 0.5s;
+  }
+  .contenedor-general .contenedor-1 .barra-menu .iconos .seccion-portfolio-in {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 12.5vh;
+    width: 8vh;
+    margin-top: 4vh;
+    margin-left: 0;
+  }
+  .contenedor-general .contenedor-1 .barra-menu .iconos .seccion-portfolio-in .icon-portfolio-in {
+    background-image: url(../img/logo-portfolio2.png);
+    background-color: white;
+    background-size: cover;
+    height: 8vh;
+    width: 8vh;
+    border-radius: 1vh;
+    filter: opacity(100%);
+  }
+  .contenedor-general .contenedor-1 .barra-menu .iconos .seccion-portfolio-in .name-portfolio-in {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 1vh;
+    height: 2.5vh;
+    width: 8vh;
+    margin-top: 2vh;
+    margin-left: 0;
+    color: black;
+    font-size: 1.5vh;
+    font-family: "Signika", sans-serif;
+    transition: 0.5s;
+  }
+  .contenedor-general .contenedor-1 .barra-menu .iconos .seccion-contact-in {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 12.5vh;
+    width: 8vh;
+    margin-top: 4vh;
+    margin-left: 0;
+  }
+  .contenedor-general .contenedor-1 .barra-menu .iconos .seccion-contact-in .icon-contact-in {
+    background-image: url(../img/logo-contacto2.png);
+    background-color: white;
+    background-size: cover;
+    height: 8vh;
+    width: 8vh;
+    border-radius: 1vh;
+    filter: opacity(100%);
+  }
+  .contenedor-general .contenedor-1 .barra-menu .iconos .seccion-contact-in .name-contact-in {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 1vh;
+    height: 2.5vh;
+    width: 8vh;
+    margin-top: 2vh;
+    margin-left: 0;
+    color: black;
+    font-size: 1.5vh;
+    font-family: "Signika", sans-serif;
+    transition: 0.5s;
+  }
+  .contenedor-general .linea-intermedia {
+    margin-top: 2.5vh;
+    height: 0.1px;
+    width: 80%;
+    border: none;
+    border-top: solid 1px white;
+  }
+  .contenedor-general .contenedor-2 .contenedor-divisor {
+    height: 95%;
+    width: 100%;
+  }
+  .contenedor-general .contenedor-2 .contenedor-divisor .contenedor-texto-about {
+    width: 95%;
+    height: 95%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* background-color: yellow; */
+    text-align: center;
+  }
+  .contenedor-general .contenedor-2 .contenedor-divisor .contenedor-texto-about p {
+    font-size: 1.8vh;
+    margin-top: 0.5vh;
+    padding: 0.5vh 1vh;
+  }
+  .contenedor-general .contenedor-2 .contenedor-divisor .contenedor-texto-about p mark {
+    width: 100%;
+  }
+  .contenedor-general .contenedor-2 .contenedor-divisor-index {
+    flex-direction: column;
+    align-items: center;
+    height: 95%;
+    width: 100%;
+  }
+  .contenedor-general .contenedor-2 .contenedor-divisor-portfolio {
+    display: flex;
+    justify-content: center;
+    height: 90vh;
+    width: 100%;
+    padding-top: 1vh;
+    border-radius: 2vh;
+    background-color: rgba(255, 255, 255, 0.2);
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+  }
+  .contenedor-general .contenedor-2 .contenedor-divisor-portfolio .contenido-portfolio {
+    height: 95%;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 2vh;
+  }
+  .contenedor-general .contenedor2-resume {
+    height: 200vh;
+  }
+  .contenedor-general .contenedor2-resume .contenedor-divisor-resume {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 95%;
+    width: 95%;
+    margin-bottom: 2vh;
+    border-radius: 2vh;
+    background-color: rgba(255, 255, 255, 0.2);
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+  }
+  .contenedor-general .contenedor2-resume .contenedor-divisor-resume .contenido-resume {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    font-size: 1.5vh;
+  }
+  .contenedor-general .contenedor2-resume .contenedor-divisor-resume .contenido-resume .edu-exp {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-bottom: 3vh;
+    padding: 2.5vh 1.5vh;
+    height: 100%;
+    width: 95%;
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 2vh;
+    text-align: center;
+  }
+  .contenedor-general .contenedor2-resume .contenedor-divisor-resume .contenido-resume .titulo-exp {
+    margin-bottom: 1vh;
+    color: darkgoldenrod;
+    background-color: rgba(255, 255, 255, 0.4);
+  }
+  .contenedor-general .contenedor2-resume .contenedor-divisor-resume .contenido-resume .seccion-exp {
+    background-color: rgba(255, 255, 255, 0.1);
+  }
+  .contenedor-general .contenedor2-resume .contenedor-divisor-resume .contenido-resume .descripcion-exp {
+    margin-left: 1.5vh;
+  }
+  .contenedor-general .contenedor2-resume .contenedor-divisor-resume .contenido-resume .descripcion {
+    background-color: white;
+  }
+  .contenedor-general .contenedor2-resume .contenedor-divisor-resume .contenido-resume .tecnico-electricista {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    border-bottom: solid 1px white;
+    margin: 0;
+    padding: 0;
+    padding-bottom: 2vh;
+    grid-area: tecnico;
+  }
+  .contenedor-general .contenedor2-resume .contenedor-divisor-resume .contenido-resume .operador {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    border-bottom: solid 1px white;
+    grid-area: operador;
+    margin: 0;
+    padding: 0;
+    padding-bottom: 2vh;
+  }
+  .contenedor-general .contenedor2-resume .contenedor-divisor-resume .contenido-resume .desarrollo-web {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    border-bottom: solid 1px white;
+    grid-area: desarrollador;
+    margin: 0;
+    padding: 0;
+    padding-bottom: 2vh;
+  }
+}
+/* @MEDIA 1300 @MEDIA 1300 @MEDIA 1300 @MEDIA 1300 @MEDIA 1300 @MEDIA 1300 @MEDIA 1300 @MEDIA 1300 @MEDIA 1300 @MEDIA 1300 */
+/* @MEDIA 1300 @MEDIA 1300 @MEDIA 1300 @MEDIA 1300 @MEDIA 1300 @MEDIA 1300 @MEDIA 1300 @MEDIA 1300 @MEDIA 1300 @MEDIA 1300 */
+/* @MEDIA 1300 @MEDIA 1300 @MEDIA 1300 @MEDIA 1300 @MEDIA 1300 @MEDIA 1300 @MEDIA 1300 @MEDIA 1300 @MEDIA 1300 @MEDIA 1300 */
+/* @MEDIA 800 @MEDIA 800 @MEDIA 800 @MEDIA 800 @MEDIA 800 @MEDIA 800 @MEDIA 800 @MEDIA 800 @MEDIA 800 @MEDIA 800 @MEDIA 800 @MEDIA 800*/
+/* @MEDIA 800 @MEDIA 800 @MEDIA 800 @MEDIA 800 @MEDIA 800 @MEDIA 800 @MEDIA 800 @MEDIA 800 @MEDIA 800 @MEDIA 800 @MEDIA 800 @MEDIA 800*/
+@media (max-width: 800px) {
+  .wdt2 {
+    display: block !important;
+  }
+  .wdt1 {
+    display: none;
+  }
+  .contenido-contact form textarea {
+    max-width: 40vh !important;
+  }
+}
+/* @MEDIA 800 @MEDIA 800 @MEDIA 800 @MEDIA 800 @MEDIA 800 @MEDIA 800 @MEDIA 800 @MEDIA 800 @MEDIA 800 @MEDIA 800 @MEDIA 800 @MEDIA 800*/
+/* @MEDIA 800 @MEDIA 800 @MEDIA 800 @MEDIA 800 @MEDIA 800 @MEDIA 800 @MEDIA 800 @MEDIA 800 @MEDIA 800 @MEDIA 800 @MEDIA 800 @MEDIA 800*/
+/* @MEDIA 500 @MEDIA 500 @MEDIA 500 @MEDIA 500 @MEDIA 500 @MEDIA 500 @MEDIA 500 @MEDIA 500 @MEDIA 500 @MEDIA 500 @MEDIA 500 @MEDIA 500*/
+@media (max-width: 450px) {
+  .wdt2 {
+    display: none !important;
+  }
+  .wdt3 {
+    display: block !important;
+  }
+  .contenido-contact form textarea {
+    max-width: 30vh !important;
+  }
+}
+/* @MEDIA 500 @MEDIA 500 @MEDIA 500 @MEDIA 500 @MEDIA 500 @MEDIA 500 @MEDIA 500 @MEDIA 500 @MEDIA 500 @MEDIA 500 @MEDIA 500 @MEDIA 500*/
+/* 
+} 
+                                        *//*# sourceMappingURL=style.css.map */

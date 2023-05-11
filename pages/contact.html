@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="../css/style.css" />
+        <!-- FUENTES -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Signika:wght@300;400;500&display=swap" rel="stylesheet">
+        <!-- /FUENTES -->
+        <meta name="description" content="Formulario para contactar con Enzo Gabriel Zanino">
+        <meta name="keywords" content="Portfolio, Cv, Argentina, San Luis, Villa Mercedes, Redes Sociales, Redes, FullStack, 
+        Full Stack, Web Developer, Desarrollador Full Stack, Desarrollador FullStack, FrontEnd, Frontend, Backend, WEB">
+        <title>CONTACT</title>
+        <link rel="icon" type="image/png" href="../img/favicon.png">
+    </head>
+    <body class="contenedor-general">
+        <header class="contenedor-1">
+            <div class="barra-menu">
+                <div class="iconos">
+                    <a href="../index.html">
+                        <div class="seccion-home">
+                            <img src="../img/icono-home.jpg" alt="imagen seccion home" class="icon-home">
+                            <div class="name-home">
+                                <p>HOME</p>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="../pages/about.html">
+                        <div class="seccion-about">
+                            <img src="../img/icono-about.jpg" alt="seccion about" class="icon-about">
+                            <div class="name-about">
+                                <p>ABOUT</p>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="../pages/resume.html">
+                        <div class="seccion-resume">
+                            <img src="../img/icono-resume.jpg" alt="seccion resume" class="icon-resume">
+                            <div class="name-resume">
+                            <p>RESUME</p>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="../pages/portfolio.html">
+                        <div class="seccion-portfolio">
+                            <img src="../img/icono-portfolio.jpg" alt="seccion portfolio" class="icon-portfolio">
+                            <div class="name-portfolio">
+                            <p>PORTFOLIO</p>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="../pages/contact.html">
+                        <div class="seccion-contact-in">
+                            <img src="../img/icono-contact.jpg" alt="seccion contacto" class="icon-contact-in">
+                            <div class="name-contact-in">
+                            <p>CONTACT</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </header>
+        <div class="linea-intermedia"></div>
+        <main class="contenedor-2">
+            <div class="contenedor-divisor">
+                <div class="contenido-contact">
+                    <h1>Formulario</h1>
+                    <form action="enviar.php" method="post">
+                        <label for="nombre">Nombre:</label>
+                        <input type="text" id="nombre" name="nombre">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email">
+                        <label for="mensaje">Mensaje:</label>
+                        <textarea id="mensaje" name="mensaje" rows="4" cols="50"></textarea>
+                        <input type="button" class="button-submit" value="Enviar">  <!-- type="submit" -->
+                    </form>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <input type="checkbox" id="ribbon-footer">
+            <label class="ribbon" for="ribbon-footer">
+                <div class="txt-footer">
+                <p>FOOTER</p>
+                </div>
+                <div class="footer-active">
+                <p>©All rights reserved</p>
+                </div>
+            </label>
+        </footer>
+    </body>
+</html>
